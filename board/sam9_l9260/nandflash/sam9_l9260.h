@@ -124,13 +124,14 @@
 #if	defined(IMG_SIZE)
 #warning			"IMG_SIZE redefined"
 #else
-#define	IMG_SIZE		0x30000		/* Image Size in NandFlash    */
+#define	IMG_SIZE		0x40000		/* Image Size in NandFlash    */
 #endif
 
 #if	defined(JUMP_ADDR)
 #warning			"JUMP_ADDR redefined"
 #else
-#define JUMP_ADDR		0x23F00000	/* Final Jump Address 	      */
+			/* JUMP_ADDR must match u-boot! */
+#define JUMP_ADDR		0x21F00000	/* Final Jump Address 	      */
 #endif
 
 /* ******************************************************************* */
