@@ -1,0 +1,6 @@
+binaries/*
+board/*.o
+*.o
+driver/*.o
+result/*
+
