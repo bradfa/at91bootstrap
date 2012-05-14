@@ -21,7 +21,7 @@ the file at the bootom of the tree,
 you configure AT91-Bootstrap before use
 
 ----------------------------------------------------------
-    $ make CROSS_COMPILE=arm-linux-gnueabi- MEMORY=nandflash sam9_l9260
+    $ make CROSS_COMPILE=arm-linux-gnueabi- MEMORY=nandflash sam9_l9260_defconfig
     $ make
 
 should be enough to build the NAND flash version for Olimex
